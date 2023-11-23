@@ -21,10 +21,10 @@ jobs:
         uses: docker/login-action@v2.1.0
         with:
           registry: ghcr.io
-          # username: ${{ github.actor }}
-          username: surattinon
-          # password: ${{secrets.GITHUB_TOKEN}}
-          password: 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
+          username: ${{ github.actor }}
+          # username: surattinon
+          password: ${{secrets.GITHUB_TOKEN}}
+          # password: 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
           logout: true
 
       - name: Build and Push to GitHub Container Registry
