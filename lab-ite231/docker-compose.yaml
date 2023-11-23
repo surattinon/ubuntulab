@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  lab:
+    image: ghcr.io/surattinon/ubuntulab:31e20b68da2e7c19c4300d4c2b00c1d276ba52e5
+    tty: true
